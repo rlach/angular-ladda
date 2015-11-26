@@ -1,4 +1,4 @@
-/*! angular-ladda 0.3.1 */
+/*! rlach-angular-ladda 0.3.3 */
 /**!
  * AngularJS Ladda directive
  * @author Chungsub Kim <subicura@subicura.com>
@@ -46,8 +46,8 @@
                     if (angular.isUndefined(element.attr('data-style'))) {
                         element.attr('data-style', laddaOption.style || 'zoom-in');
                     }
-                    if (angular.isUndefined(element.attr('data-spinner-collor'))) {
-                        element.attr('data-spinner-collor', laddaOption.spinnerColor || '#fff');
+                    if (angular.isUndefined(element.attr('data-spinner-color'))) {
+                        element.attr('data-spinner-color', laddaOption.spinnerColor || '#fff');
                     }
 
                     // ladda breaks childNode's event property.
