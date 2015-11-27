@@ -48,6 +48,9 @@
                     if (angular.isUndefined(element.attr('data-spinner-color'))) {
                         element.attr('data-spinner-color', laddaOption.spinnerColor || '#fff');
                     }
+                    if (angular.isUndefined(element.attr('data-spinner-size'))) {
+                        element.attr('data-spinner-size', laddaOption.spinnerSize || 10);
+                    }
                     if (angular.isUndefined(element.attr('data-size'))) {
                         element.attr('data-size', laddaOption.size);
                     }

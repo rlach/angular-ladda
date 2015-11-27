@@ -1,6 +1,6 @@
 {
   "name": "rlach-angular-ladda",
-  "version": "0.3.5",
+  "version": "0.3.6",
   "main": "dist/angular-ladda.js",
   "dependencies": {
     "angular": "^1.2.0",
