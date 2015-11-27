@@ -48,6 +48,9 @@
                     if (angular.isUndefined(element.attr('data-spinner-color'))) {
                         element.attr('data-spinner-color', laddaOption.spinnerColor || '#fff');
                     }
+                    if (angular.isUndefined(element.attr('data-size'))) {
+                        element.attr('data-size', laddaOption.size);
+                    }
 
                     // ladda breaks childNode's event property.
                     // because ladda use innerHTML instead of append node
